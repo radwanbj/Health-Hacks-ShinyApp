@@ -1,0 +1,70 @@
+---
+title: "HEALTH HACKS"
+author: Group 4 <br />
+        
+        Radwan Ali Ramadan (17180948/1) <br />
+        
+        Nursara Ain binti Harzany (U2005391/1) <br />
+        
+        Noor Athirah binti Md Fuad (17202875/2) <br />
+        
+        Nurin Batrisyia binti Mohd Azmi (17207087/2)
+  
+output: slidy_presentation
+
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+```
+
+# Introduction
+![](C:/users/Dell/chart.png){width=45%}
+
+This one actually comes from Hannah Ritchie and Max Roser of [ourworldindata.org](https://ourworldindata.org/obesity), they use datasets from 1975 to 2016. As you can see, more than one-in-three (36%) of adults in the United States and Saudi Arabia were obese in 2016. How about Malaysia? 15.6% of adults in Malaysia were obese in 2016. Therefore, we bring out our application that can helps people to calculate their weight to overcome and avoid obesity. So that we can have a better life in the future.
+
+> Question?
+
+1. What can your gender, age, weight, height, and minutes of exercise per day tell you about your health?
+2. How many calculations can be put in one site?
+3. Can they maintain their health using our project?
+
+# Proposed Solution / Approach
+- [Body Mass Index Formula](https://www.calculator.net/bmi-calculator.html)
+
+  = $\small {\frac{weight(kg)}{height(m)^{2}}}$
+
+- [Body Fat Formula](https://www.calculator.net/body-fat-calculator.html)
+  - Male and 14 years old above = $\small (1.2 \times BMI) + (0.23 \times Age) - 16.2$
+  - Male and 14 years below = $\small (1.51 \times BMI) + (0.7 \times Age) - 2.2$
+  - Female and 14 years old above = $\small (1.2 \times BMI) + (0.23 \times Age) - 5.4$
+  - Female and 14 years below = $\small (1.51 \times BMI) + (0.7 \times Age) - 1.4$
+  
+# Proposed Solution / Approach
+  
+- [Body Calories Formula ( The Harris-Benedict  )](https://www.omnicalculator.com/health/bmr-harris-benedict-equation)
+  - Male = $\small 88.362 + (13.397 \times weight\space(kg)) + (4.799 \times height\space(cm)) - (5.677 \times age\space(years))$
+  - Female = $\small 447.593 + (9.247 \times weight\space(kg)) + (3.098 \times height\space(cm)) - (4.330 \times age\space(years))$
+
+- [Body Water Formula](https://www.omnicalculator.com/health/body-water)
+  - Male = $\small 2.447 - (0.3362 \times weight\space(kg)) + (0.1074 \times height\space(cm)) - (0.09156 \times age\space(years))$
+  - Female = $\small -2.097 - (0.2466 \times weight\space(kg)) + (0.1069 \times height\space(cm))$
+  
+- [Daily Water Intakes Formula](https://www.slenderkitchen.com/article/how-to-calculate-how-much-water-you-should-drink-a-day) 
+
+= $\small \frac{2}{3}\times(weight(kg)\times 2.20462)+(exercise(min)\times0.4))\times0.0295735$
+
+
+# Benefit
+
+- Gives information about people current health.
+- People can plan their meals so that they did not consume more than calories needed in a day.
+- People can maintain their healthy weight.
+- People can calculate their healthy weight in one place.
+
+> Link
+
+1. [Application](https://healthhacks.shinyapps.io/Health_Hacks_ShinyApp/)
+2. [Github](https://github.com/radwanbj/Health-Hacks-ShinyApp)
+
+
