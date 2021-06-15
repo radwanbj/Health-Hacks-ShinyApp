@@ -19,7 +19,7 @@ knitr::opts_chunk$set(echo = FALSE)
 ```
 
 # Introduction
-![](C:/users/Dell/chart.png){width=45%}
+![](chart.png){width=45%}
 
 This one actually comes from Hannah Ritchie and Max Roser of [ourworldindata.org](https://ourworldindata.org/obesity), they use datasets from 1975 to 2016. As you can see, more than one-in-three (36%) of adults in the United States and Saudi Arabia were obese in 2016. How about Malaysia? 15.6% of adults in Malaysia were obese in 2016. Therefore, we bring out our application that can helps people to calculate their weight to overcome and avoid obesity. So that we can have a better life in the future.
 
